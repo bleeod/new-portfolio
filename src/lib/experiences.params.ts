@@ -31,7 +31,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Contractor',
 		color: '#ffffff',
 		links: [{ to: 'https://www.roblox.com/groups/3512825/Paradi#!/about', label: 'Roblox Group' }],
-		logo: Assets.Wace,
+		logo: Assets.Jamies,
 		shortDescription: ''
 	},
 ];
