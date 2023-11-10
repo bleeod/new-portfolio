@@ -42,3 +42,4 @@ export const getSkills = (...slugs: Array<string>): Array<Skill> =>
 	MY_SKILLS.filter((it) => slugs.includes(it.slug));
 
 
+
