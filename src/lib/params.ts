@@ -75,6 +75,11 @@ export const SKILLS: SkillsPageParams = {
 	items: MY_SKILLS
 };
 
+export const RESUME: ResumePageParams = {
+	title: 'Resumé',
+	item: ''
+};
+
 export const SEARCH: SearchPageParams = {
 	title: 'Search'
 };
