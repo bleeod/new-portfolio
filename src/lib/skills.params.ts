@@ -22,8 +22,8 @@ const MY_SKILLS = [
 		color: 'gray',
 		description:
 			'I boast a year of dedicated experience in Roblox user interface design, witnessing notable progress in my endeavors. Proficient in industry-standard software such as Adobe Photoshop, Paint.NET, and Figma, I employ these tools to meticulously craft high-quality user interfaces and experiences. This commitment to utilizing advanced design platforms underscores my dedication to delivering impactful and visually compelling solutions within the dynamic realm of Roblox.',
-		logo: Assets.Lua,
-		name: 'UI / UX'
+		logo: Assets.UI,
+		name: 'User Interface'
 	}),
 
 	s({
@@ -31,7 +31,7 @@ const MY_SKILLS = [
 		color: 'gray',
 		description:
 			'Drawing upon my robust history on the Roblox platform as a Romanian translator, I have collaborated with various agencies and independently, establishing myself as a premier professional. Renowned for delivering unparalleled quality, competitive pricing, and efficient turnaround times, I am recognized as one of the foremost Romanian translators. My portfolio includes collaboration on esteemed games such as Doomspire Brickbattle, Vehicle Simulator, Vehicle Tycoon, Dealership Tycoon, Horrific Housing, among others, underscoring my diverse expertise in the gaming domain.',
-		logo: Assets.Lua,
+		logo: Assets.Translation,
 		name: 'Translation'
 	})
 ];
