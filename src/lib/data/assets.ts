@@ -71,7 +71,9 @@ const Assets = {
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
-	Lua: a('lua.png')
+	Lua: a('lua.png'),
+	UI: a('ui.png'),
+	Translation: a('translation.png')
 };
 
 export default Assets;
