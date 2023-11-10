@@ -73,7 +73,8 @@ const Assets = {
 	Postcss: a('postcss.svg'),
 	Lua: a('lua.png'),
 	UI: a('ui.png'),
-	Translation: a('translation.png')
+	Translation: a('translation.png'),
+	Wace: a('wace.png')
 };
 
 export default Assets;
