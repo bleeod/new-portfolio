@@ -75,7 +75,8 @@ const Assets = {
 	UI: a('ui.png'),
 	Translation: a('translation.png'),
 	Wace: a('wace.png'),
-	Jamies: a('jamies.PNG')
+	Jamies: a('jamies.PNG'),
+	Seda: a('seda.png')
 };
 
 export default Assets;
