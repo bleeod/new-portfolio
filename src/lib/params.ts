@@ -43,12 +43,12 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'BLEEOD',
+	name: 'bleeod',
 	lastName: '',
 	description:
-		'Greetings, I am bleeod, a seasoned full-stack game programmer, proficient Romanian translator, and adept UI/UX designer. Over the past four years, I have cultivated a comprehensive background within the dynamic landscape of the Roblox platform. My expertise spans various facets, enabling me to contribute effectively to diverse projects and deliver high-quality assets. As a professional, I bring a wealth of experience in game development, linguistic proficiency in Romanian translation, and a keen eye for crafting intuitive and visually appealing user interfaces and experiences. The best way to contact me is through discord @vetemonts ',
+		'Hello, Im bleeod, an experienced full-stack game programmer, skilled Romanian translator, and proficient UI/UX designer. With four years of experience on the Roblox platform, I have developed a well-rounded background. As a professional, I bring tons of experience in game development, linguistic proficiency in Romanian translation, and a keen ability to design visually appealing and intuitive user interfaces and experiences. ',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/bleeod' },
 		{
 			platform: Platform.Twitter,
 			link: 'https://twitter.com/dontsellurself'
