@@ -74,7 +74,8 @@ const Assets = {
 	Lua: a('lua.png'),
 	UI: a('ui.png'),
 	Translation: a('translation.png'),
-	Wace: a('wace.png')
+	Wace: a('wace.png'),
+	Jamies: a('jamies.PNG')
 };
 
 export default Assets;
