@@ -14,7 +14,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		skills: getSkills('lua'),
 		name: 'Lead Programmer',
 		color: '#ffffff',
-		links: ['https://www.roblox.com/groups/4603811/WaCe-Studios#!/about'],
+		links: [{ to: 'https://www.roblox.com/groups/4603811/', label: 'Roblox Group' }],
 		logo: Assets.Wace,
 		shortDescription: ''
 	},
