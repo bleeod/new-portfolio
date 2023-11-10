@@ -14,7 +14,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		skills: getSkills('lua'),
 		name: 'Lead Programmer',
 		color: '#ffffff',
-		links: [{ to: 'https://www.roblox.com/groups/4603811/', label: 'Roblox Group' }],
+		links: [{ to: 'https://www.roblox.com/groups/4603811/WaCe-Studios#!/about', label: 'Roblox Group' }],
 		logo: Assets.Wace,
 		shortDescription: ''
 	},
@@ -30,7 +30,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		skills: getSkills('lua', 'ui'),
 		name: 'Contractor',
 		color: '#ffffff',
-		links: [],
+		links: [{ to: 'https://www.roblox.com/groups/3512825/Paradi#!/about', label: 'Roblox Group' }],
 		logo: Assets.Wace,
 		shortDescription: ''
 	},
