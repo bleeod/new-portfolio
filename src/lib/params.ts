@@ -12,7 +12,7 @@ import {
 } from './types';
 import { Icons } from './utils';
 
-export const TITLE_SUFFIX = 'Slick template with Svelte';
+export const TITLE_SUFFIX = '';
 
 export const NavBar = {
 	home: 'Home',
@@ -43,36 +43,20 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'BLEEOD',
+	lastName: '',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'Greetings, I am bleeod, a seasoned full-stack game programmer, proficient Romanian translator, and adept UI/UX designer. Over the past four years, I have cultivated a comprehensive background within the dynamic landscape of the Roblox platform. My expertise spans various facets, enabling me to contribute effectively to diverse projects and deliver high-quality assets. As a professional, I bring a wealth of experience in game development, linguistic proficiency in Romanian translation, and a keen eye for crafting intuitive and visually appealing user interfaces and experiences. The best way to contact me is through discord @vetemonts ',
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/' },
 		{
-			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
-		},
-		{
 			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
+			link: 'https://twitter.com/dontsellurself'
 		},
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
+			link: 'linkodavid.bidness@gmail.com'
 		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
-		}
 	]
 };
 
@@ -89,11 +73,6 @@ export const EXPERIENCES: ExperiencePageParams = {
 export const SKILLS: SkillsPageParams = {
 	title: 'Skills',
 	items: MY_SKILLS
-};
-
-export const RESUME: ResumePageParams = {
-	title: 'Resumé',
-	item: ''
 };
 
 export const SEARCH: SearchPageParams = {
