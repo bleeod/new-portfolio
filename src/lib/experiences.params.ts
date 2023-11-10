@@ -22,7 +22,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'game-development-contractor',
 		company: 'Jamies Restaurant Franchise',
-		description: 'Hired as a contractor to re-write some of the old codebase along with making new systems.',
+		description: 'Hired as a contractor to rewrite some of the old codebase along with making new systems.',
 		contract: ContractType.Freelance,
 		type: 'Game Development',
 		location: 'Remote',
@@ -32,6 +32,22 @@ const MY_EXPERIENCES: Array<Experience> = [
 		color: '#ffffff',
 		links: [{ to: 'https://www.roblox.com/groups/3512825/Paradi#!/about', label: 'Roblox Group' }],
 		logo: Assets.Jamies,
+		shortDescription: ''
+	},
+
+	{
+		slug: 'game-development-director',
+		company: 'Seda®',
+		description: 'Originally hired as a contractor and ended up sticking around for longer and maintaining games, attendind interview/training sessions, moderating, etc.',
+		contract: ContractType.Freelance,
+		type: 'Game Development',
+		location: 'Remote',
+		period: { from: new Date(2020, 7, 1), to: new Date(2020, 11, 1) },
+		skills: getSkills('lua', 'ui'),
+		name: 'Director of Development',
+		color: '#ffffff',
+		links: [{ to: 'https://www.roblox.com/groups/4178207/Seda#!/about', label: 'Roblox Group' }, { to: 'https://www.roblox.com/games/2069515776/Seda-Hotel', label: 'Main Roblox Game' }],
+		logo: Assets.Seda,
 		shortDescription: ''
 	},
 ];
