@@ -5,7 +5,7 @@ import type { Project } from './types';
 const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'roblox-programming-example-gun',
-		color: '##5a0000',
+		color: '#990000',
 		description:
 			'A quite complicated gun system, similar to games like Criminals Vs Swat and Criminality, thats easy to edit and add-on new guns, abilities, etc.',
 		shortDescription:
