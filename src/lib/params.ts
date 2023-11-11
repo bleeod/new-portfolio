@@ -61,7 +61,7 @@ export const HOME: HomePageParams = {
 };
 
 export const PROJECTS: ProjectPageParams = {
-	title: 'Projects',
+	title: 'Examples',
 	items: MY_PROJECTS
 };
 
