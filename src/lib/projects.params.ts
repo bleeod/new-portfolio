@@ -21,7 +21,7 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'screen 1',
-				src: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
+				src: 'https://media.discordapp.net/attachments/820946778588708865/1172824949581418528/example1.gif?ex=6561b95a&is=654f445a&hm=c443d0ca89fda4b5a42dd6a5d7e9b143eca61f89be108dcd2a212ad2d29a3036&='
 			}
 		]
 	}
