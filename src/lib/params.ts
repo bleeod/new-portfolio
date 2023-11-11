@@ -16,7 +16,7 @@ export const TITLE_SUFFIX = '';
 
 export const NavBar = {
 	home: 'Home',
-	personal: 'Projects',
+	personal: 'Examples',
 	career: 'Experiences',
 	resume: 'Resume',
 	skills: 'Skills'
