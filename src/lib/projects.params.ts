@@ -5,7 +5,7 @@ import type { Project } from './types';
 const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'roblox-programming-example-gun',
-		color: '#990000',
+		color: '#002db3',
 		description:
 			'A quite complicated gun system, similar to games like Criminals Vs Swat and Criminality, thats easy to edit and add-on new guns, abilities, etc.',
 		shortDescription:
@@ -14,7 +14,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Lua,
 		name: 'Modular Gun System',
 		period: {
-			from: new Date()
+			from: new Date(2022, 5, 20)
 		},
 		skills: getSkills('lua', 'ui'),
 		type: '',
