@@ -78,7 +78,8 @@ const Assets = {
 	Jamies: a('jamies.PNG'),
 	Seda: a('seda.png'),
 	Fizze: a('Fizze.png'),
-	SGC: a('SGC.png')
+	SGC: a('SGC.png'),
+	PlayDuo: a('PlayDuo.png')
 };
 
 export default Assets;
