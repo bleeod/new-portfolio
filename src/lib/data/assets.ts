@@ -76,7 +76,9 @@ const Assets = {
 	Translation: a('translation.png'),
 	Wace: a('wace.png'),
 	Jamies: a('jamies.PNG'),
-	Seda: a('seda.png')
+	Seda: a('seda.png'),
+	Fizze: a('Fizze.png'),
+	SGC: a('SGC.png')
 };
 
 export default Assets;
