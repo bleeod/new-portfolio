@@ -5,6 +5,22 @@ import { ContractType, type Experience } from './types';
 const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'game-development-contractor',
+		company: 'PlayDuo Studios',
+		description: 'With over 1 Million group members, I was hired at PlayDuo Studios to help regarding a update and do minor performance fixes.',
+		contract: ContractType.Contract,
+		type: 'Game Development',
+		location: 'Remote',
+		period: { from: new Date(2023, 2, 1), to: new Date(2023, 2, 15) },
+		skills: getSkills('lua'),
+		name: 'Contractor',
+		color: '#ffffff',
+		links: [{ to: 'https://www.roblox.com/groups/4626344/Playduo-Studio#!/about', label: 'Roblox Group' }],
+		logo: Assets.PlayDuo,
+		shortDescription: ''
+	},
+	
+	{
+		slug: 'game-development-contractor',
 		company: 'Survival Game Central',
 		description: 'Hired as a programmer to finish up a complex anime simulator game.',
 		contract: ContractType.Contract,
