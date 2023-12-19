@@ -5,6 +5,38 @@ import { ContractType, type Experience } from './types';
 const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'game-development-contractor',
+		company: 'Survival Game Central',
+		description: 'Hired as a contractor to finish up a complex anime simulator game.',
+		contract: ContractType.Contract,
+		type: 'Game Development',
+		location: 'Remote',
+		period: { from: new Date(2021, 7, 1), to: new Date(2021, 9, 1) },
+		skills: getSkills('lua'),
+		name: 'Contractor',
+		color: '#ffffff',
+		links: [{ to: 'https://www.roblox.com/groups/4325629/Survival-Game-Central#!/about', label: 'Roblox Group' }],
+		logo: Assets.SGC,
+		shortDescription: ''
+	},
+	
+	{
+		slug: 'game-development-contractor',
+		company: 'Fizze',
+		description: 'Hired as a contractor to rewrite the premium membership system + other smaller stuff.',
+		contract: ContractType.Contract,
+		type: 'Game Development',
+		location: 'Remote',
+		period: { from: new Date(2021, 9, 1), to: new Date(2021, 10, 1) },
+		skills: getSkills('lua'),
+		name: 'Contractor',
+		color: '#ffffff',
+		links: [{ to: 'https://www.roblox.com/groups/3117188/Fizze#!/about', label: 'Roblox Group' }],
+		logo: Assets.Fizze,
+		shortDescription: ''
+	},
+	
+	{
+		slug: 'game-development-contractor',
 		company: 'Jamies Restaurant Franchise',
 		description: 'Hired as a contractor to rewrite some of the old codebase along with making new systems.',
 		contract: ContractType.Contract,
