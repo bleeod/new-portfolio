@@ -14,7 +14,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Lua,
 		name: 'Modular Gun System',
 		period: {
-			from: new Date(2022, 5, 20)
+			from: new Date(2021, 5, 20)
 		},
 		skills: getSkills('lua', 'ui'),
 		type: '',
@@ -42,7 +42,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Lua,
 		name: 'Sandbox Tycoon System',
 		period: {
-			from: new Date(2022, 5, 20)
+			from: new Date(2021, 5, 20)
 		},
 		skills: getSkills('lua'),
 		type: '',
@@ -57,7 +57,35 @@ const MY_PROJECTS: Array<Project> = [
 				src: "https://media.discordapp.net/attachments/831547738940112927/1187702186344456192/SandboxTycoon_GIF.gif?ex=6597d8db&is=658563db&hm=6f5f96dcd5b781f30f94ebf59598ed970b9220dc39d185f5cb5bd1c9827ce34b&=&width=1264&height=676"
 			}
 		]
-	}
+	},
+
+	{
+		slug: 'roblox-programming-example-tryon',
+		color: '#002db3',
+		description:
+			'Simple and compact mannequin try-on system made in a couple hours for a personal project.',
+		shortDescription:
+			'Simple and compact mannequin try-on system made in a couple hours for a personal project.',
+		links: [{ to: 'https://media.discordapp.net/attachments/831547738940112927/1187704759621259354/example5.gif?ex=6597db41&is=65856641&hm=fe7353965a207bcf225c03a09e133451303cb82489a1fa30182d71e0810c5891&=', label: 'Click Me' }],
+		logo: Assets.Lua,
+		name: 'Mannequin Try-on System',
+		period: {
+			from: new Date(2022, 5, 20)
+		},
+		skills: getSkills('lua'),
+		type: '',
+		screenshots: [
+			{
+				label: 'ON-SITE',
+				src: ""
+			},
+
+			{
+				label: 'URL',
+				src: "https://media.discordapp.net/attachments/831547738940112927/1187704759621259354/example5.gif?ex=6597db41&is=65856641&hm=fe7353965a207bcf225c03a09e133451303cb82489a1fa30182d71e0810c5891&="
+			}
+		]
+	},
 ];
 
 export default MY_PROJECTS;
