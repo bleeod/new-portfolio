@@ -46,7 +46,7 @@ export const HOME: HomePageParams = {
 	name: 'bleeod',
 	lastName: '',
 	description:
-		'Hello, Im bleeod, an experienced full-stack game programmer, skilled Romanian translator, and proficient UI/UX designer. With four years of experience on the Roblox platform, I have developed a well-rounded background. As a professional, I bring tons of experience in game development, linguistic proficiency in Romanian translation, and a keen ability to design visually appealing and intuitive user interfaces and experiences. ',
+		'Hello, Im bleeod, an experienced full-stack game programmer, skilled Romanian translator, and proficient UI/UX designer. With four years of experience on the Roblox platform, I have developed a well-rounded background. As a professional, I bring tons of experience in game development, linguistic proficiency in Romanian translation, and a keen ability to design visually appealing and intuitive user interfaces and experiences. (MY DISCORD IS: @vetemonts)',
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/bleeod' },
 		{
