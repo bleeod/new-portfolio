@@ -10,7 +10,7 @@ const MY_PROJECTS: Array<Project> = [
 			'A quite complicated gun system, similar to games like Criminals Vs Swat and Criminality, thats easy to edit and add-on new guns, abilities, etc.',
 		shortDescription:
 			'A quite complicated gun system, similar to games like Criminals Vs Swat and Criminality, thats easy to edit and add-on new guns, abilities, etc.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'Roblox Game' }],
+		links: [{ to: 'https://github.com/bleeod', label: 'Click Me' }],
 		logo: Assets.Lua,
 		name: 'Modular Gun System',
 		period: {
@@ -22,6 +22,29 @@ const MY_PROJECTS: Array<Project> = [
 			{
 				label: 'System in-action',
 				src: Assets.GunSystem_GIF
+			}
+		]
+	},
+
+	{
+		slug: 'roblox-programming-example-tycoon',
+		color: '#002db3',
+		description:
+			'A fully modular sandbox tycoon/housing system similar to games like Restaurant Tycoon 2 or Miners Haven.',
+		shortDescription:
+			'A fully modular sandbox tycoon/housing system similar to games like Restaurant Tycoon 2 or Miners Haven.',
+		links: [{ to: 'https://github.com/bleeod', label: 'Click Me' }],
+		logo: Assets.Lua,
+		name: 'Modular Gun System',
+		period: {
+			from: new Date(2022, 5, 20)
+		},
+		skills: getSkills('lua'),
+		type: '',
+		screenshots: [
+			{
+				label: 'System in-action',
+				src: Assets.SandboxTycoon_GIF
 			}
 		]
 	}
