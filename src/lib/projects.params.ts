@@ -20,7 +20,7 @@ const MY_PROJECTS: Array<Project> = [
 		type: '',
 		screenshots: [
 			{
-				label: 'screen 1',
+				label: 'System in-action',
 				src: Assets.GunSystem_GIF
 			}
 		]
