@@ -35,7 +35,7 @@ const MY_PROJECTS: Array<Project> = [
 			'A fully modular sandbox tycoon/housing system similar to games like Restaurant Tycoon 2 or Miners Haven.',
 		links: [{ to: 'https://github.com/bleeod', label: 'Click Me' }],
 		logo: Assets.Lua,
-		name: 'Modular Gun System',
+		name: 'Sandbox Tycoon System',
 		period: {
 			from: new Date(2022, 5, 20)
 		},
